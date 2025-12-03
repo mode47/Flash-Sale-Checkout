@@ -1,7 +1,7 @@
 <?php
 namespace App\Enums;
 enum OrderStatusEnum :string{
-    case PENDDING='pending';
+    case PENDING='pending';
     case PROCESSING='processing';
     case COMPLETED='completed';
     case CANCELLED='cancelled';
